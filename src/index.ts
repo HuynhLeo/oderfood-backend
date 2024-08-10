@@ -1,10 +1,11 @@
 // import express from "express";
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 import myUserRoute from "./routes/MyUserRoutes";
 import cors from "cors";
 import "dotenv/config";
 import dotenv from "dotenv";
 dotenv.config();
+const mongoose = require("mongoose");
 const express = require("express");
 
 import { Request, Response } from "express";
