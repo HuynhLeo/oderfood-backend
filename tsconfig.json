@@ -1,6 +1,11 @@
 {
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+},
   "compilerOptions": {
     "outDir": "./dist",
+    "moduleResolution": "Node",
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
